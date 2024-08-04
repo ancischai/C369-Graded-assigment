@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopree Men</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            color: #333;
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            text-align: left;
+        }
+        header, footer {
+            background-color: #004aad;
+            color: white;
+            padding: 15px 0;
+            text-align: left;
+        }
+        header img {
+            max-height: 50px;
+            margin-right: 10px;
+        }
+        .navbar-nav {
+            flex-direction: row;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: white; 
+            margin: 0 10px;
+        }
+        .navbar-dark .navbar-nav .nav-link:hover {
+            background-color: #002f6c;
+            color: white;
+            border-radius: 5px;
+        }
+        main {
+            padding: 20px;
+            margin-bottom: 60px;
+        }
+        section {
+            margin-bottom: 40px;
+            text-align: left;
+        }
+        .highlight-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .highlight-item img:hover {
+            transform: scale(1.05);
+        }
+        .highlight-item {
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            background-color: white;
+            padding: 15px;
+        }
+        .highlight-item p {
+            margin-top: 10px;
+            color: #004aad;
+            font-weight: bold;
+        }
+        .purchase-button {
+            display: inline-block;
+            background-color: #004aad;
+            color: white;
+            padding: 10px 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+        }
+        .purchase-button:hover {
+            background-color: #002f6c;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer .social-icons img {
+            width: 30px;
+            margin: 0 10px;
+            filter: brightness(0) invert(1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <h1 class="d-inline">Shopree</h1>
+                </div>
+                <div class="col-6 text-right">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="home.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Men.html">Men</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Women.html">Women</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Kids.html">Kids</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>HOT DEALS</h2>
+            <div class="row">
+                <div class="col-md-4 highlight-item">
+                    <a href="https://stockx.com/nike-kd-15-aunt-pearl">
+                        <img src="photos/kd.jpg" alt="KD 15">
+                        <p>KD 15 AUNT PEARL</p>
+                    </a>
+                    <a href="payment.html" class="purchase-button">Purchase</a>
+                </div>
+                <div class="col-md-4 highlight-item">
+                    <a href="https://stockx.com/nike-kobe-8-protro-venice-beach-2024?msockid=258ae01f08b867ae08f3f3eb098066c4">
+                        <img src="photos/kobe.jpg" alt="KOBE 8">
+                        <p>KOBE 8 VENICE BEACH</p>
+                    </a>
+                    <a href="payment.html" class="purchase-button">Purchase</a>
+                </div>
+                <div class="col-md-4 highlight-item">
+                    <a href="https://stockx.com/li-ning-way-of-wade-808-3-family-love">
+                        <img src="photos/wayofwade.jpg" alt="Way of Wade">
+                        <p>WAY OF WADE 808 3 FAMILY LOVE</p>
+                    </a>
+                    <a href="payment.html" class="purchase-button">Purchase</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Shopree. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
